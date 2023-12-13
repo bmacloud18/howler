@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  background-color: rgba(156, 9, 38, 0.767);
+}
+
+#signin, #signup {
+  background-color: red;
+  border-color: black;
+  color: black;
+  font-size: 50%;
+  height: fit-content;
+  font-size: .75em;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+main {
+  background-color: rgba(219, 214, 215, 0.116);
+  border-radius: 10px;
+}
+
+#password {
+  margin-top: .5em;
+}
+
+
+.form-signin {
+  max-width: 33em;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 1em;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 0px;
+}
+
+
+h1 {
+  font-size: 5pt;
+}
+
+.loginheader {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: .5em;
+  gap: 1em 5em;
+  justify-content: center;
+}
+
+#signup {
+  flex-shrink: 8;
+  min-width: 10em;
+  max-width: 15em;
+  min-height: 4em;
+  max-height: 5em;
+  align-self: flex-start;
+}

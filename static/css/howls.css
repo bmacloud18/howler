@@ -1,0 +1,253 @@
+@media (max-width: 516px) {
+  .howls {
+    width: 60vw;
+  }
+
+  .howl {
+    max-width: 100%;
+    max-height: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "userdetails"
+        "message";
+    grid-auto-flow: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(219, 214, 215, 0.116);
+  }
+
+  .detailsbox {
+    max-width: 100%;
+    max-height: fit-content;
+    grid-area: userdetails;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1em;
+    margin-right: 1em;
+    gap: 0em 0em;
+  }
+
+  .opdetails {
+    flex-shrink: 1;
+  }
+
+  .op {
+    font-size: .5em;
+  }
+
+
+  .timestamp {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 3em;
+    margin-top: 1em;
+  }
+
+  .howlmsg {
+    grid-area: message;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-shrink: 2;
+    overflow: auto;
+  }
+
+  .opdetails {
+    grid-area: user;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 1em;
+  }
+  
+  .howlpfp {
+    display: none;
+  }
+
+  .howlpfpheader {
+    max-width: 4em;
+    min-height: 3em;
+    min-width: 3em;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 517px) and (max-width: 699px) {
+  .howls {
+    width: 75vw;
+  }
+
+  .howl {
+    width: 100%;
+    max-height: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "userdetails"
+        "message";
+    grid-auto-flow: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(219, 214, 215, 0.116);
+  }
+
+  .detailsbox {
+    max-width: fit-content;
+    max-height: fit-content;
+    grid-area: userdetails;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1em;
+    margin-right: 1em;
+    gap: 0em 1em;
+  }
+
+  .opdetails {
+    flex-shrink: 1;
+  }
+
+  .timestamp {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 2em;
+  }
+
+  .howlmsg {
+    grid-area: message;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-shrink: 2;
+    overflow: auto;
+  }
+
+  .opdetails {
+    grid-area: user;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 1em;
+  }
+
+  .howlpfp {
+    max-width: 5em;
+    min-height: 3em;
+    min-width: 3em;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .howlpfpheader {
+    max-width: 4em;
+    min-height: 3em;
+    min-width: 3em;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 700px) {
+  .howls {
+    width: 50vw;
+  }
+
+  .howl {
+    max-width: 100%;
+    max-height: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "userdetails"
+        "message";
+    grid-auto-flow: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(219, 214, 215, 0.116);
+  }
+
+  .detailsbox {
+    max-width: fit-content;
+    max-height: fit-content;
+    grid-area: userdetails;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1em;
+    margin-right: 1em;
+    gap: 0em 1em;
+  }
+
+  .opdetails {
+    flex-shrink: 1;
+  }
+
+  .timestamp {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 2em;
+    flex-shrink: 1;
+  }
+
+  .howlmsg {
+    grid-area: message;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-shrink: 2;
+    overflow: auto;
+  }
+
+  .opdetails {
+    grid-area: user;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    margin-top: 1em;
+  }
+
+  .howlpfp {
+    max-width: 5em;
+    min-height: 3em;
+    min-width: 3em;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .howlpfpheader {
+    max-width: 5em;
+    min-height: 3em;
+    min-width: 3em;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
